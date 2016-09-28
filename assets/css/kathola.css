@@ -1,0 +1,26 @@
+/* line 1, D:/_svr/html_kathola_template/assets/css/inc/_images.scss */
+.image1 {
+  background-image: url(http://www.desktopwallpaperhd.net/wallpapers/1/b/affair-family-landscapes-background-welshdragon-labels-13611.jpg); }
+
+/* line 1, D:/_svr/html_kathola_template/assets/css/inc/_default.scss */
+html, body {
+  background: #121212; }
+
+/* line 3, D:/_svr/html_kathola_template/assets/css/inc/_default.scss */
+.welcome {
+  padding: 100px 0px;
+  background-position: center center;
+  background-color: #222;
+  background-size: cover;
+  color: #eee; }
+  /* line 10, D:/_svr/html_kathola_template/assets/css/inc/_default.scss */
+  .welcome .name {
+    font-size: 20px;
+    font-weight: bold; }
+  /* line 14, D:/_svr/html_kathola_template/assets/css/inc/_default.scss */
+  .welcome .foto {
+    display: block;
+    height: 100%;
+    background: maroon; }
+
+/*# sourceMappingURL=kathola.css.map */
