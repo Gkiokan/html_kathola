@@ -1,0 +1,62 @@
+html, body {
+    background: #fff;
+    color:#eee;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+}
+
+
+.main {
+    background: #222;
+
+    .title h1 {
+        text-align:center;
+        font-size:60px; line-height:50px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 100;
+        padding: 0px; margin:0px;
+
+        small { font-size:15px; line-height:18px;}
+    }
+
+    .desc {
+        margin-top:20px; padding-top:20px;
+        border-top:1px solid gray;
+        text-align: center;
+    }
+
+    .contact {
+        margin-top:50px; padding-top:20px;
+        text-align:center;
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size:16px;
+    }
+
+    .scrolldown {
+        display:block;
+        width:auto; margin-top:50px;
+
+        .icon {
+            position: relative;
+            display:block;
+            width:80px; height:80px;
+            margin:0px auto;
+            fill: #eee;
+            cursor: pointer;
+
+            // Lets define the Icon here
+            &:before {
+                content:'';
+                position: absolute;
+                display: none;
+                top:0px; left:0px; right:0px; bottom: 0px;
+                background: url(../svg/scrolldown.svg) center center no-repeat;
+                background-size: contain;
+            }
+
+        }
+    }
+
+}

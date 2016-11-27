@@ -1,0 +1,53 @@
+/*
+    Sections
+*/
+
+.sections {
+    position: relative;
+    display: block;
+
+    background: #fff;
+    text-align: center;
+
+    font-size:2rem;
+    line-height:2rem;
+
+//    .vcenter > div {
+//        background: darkgray;
+//        border: 1px solid black;
+//    }
+
+    .inner {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: justify;
+        padding:20px;
+
+        // Pimarly links
+        small {
+          color: lightgray;
+          font-style: italic;
+            a {
+                color: inherit;
+                &:hover { color: red; }
+            }
+        }
+    }
+
+    .upperleft {
+        background: #E63462;
+    }
+
+    .upperright {
+        background: #536878;
+    }
+
+    .bottomleft {
+        background: #419873;
+    }
+
+    .bottomright {
+        background: #FE5F55;
+    }
+
+}

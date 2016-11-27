@@ -1,0 +1,9 @@
+{    
+    "sass.enabled": true,
+    "sass.compiler": "ruby",
+        "sass.options": {
+            "outputDir": "../css",        
+            "sourceComments": true,
+            "outputStyle": "compressed"
+        }
+}
