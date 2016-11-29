@@ -19,8 +19,26 @@ var k = {
         The Event Listener contructor
     */
     addEventListener: function(){
-        $(document).on('click', '.scrolldown', this.scrolldown);
+        $(document).on('click', '.scrolldown', this.scrolldown)
+        $(document).on('click', '.maps', this.removeClickSaveLayer)
+        $(document).on('mouseleave', '.maps', this.addClickSaveLayer)
     },
+
+
+    /*
+        Remove Click handler by addming active
+    */
+    removeClickSaveLayer : function(){
+        $(this).addClass('active')
+    },
+
+    /*
+        Add the layer back, by removing active
+    */
+    removeClickSaveLayer : function(){
+        $(this).removeClass('active')
+    },
+
 
     /*
         Scroll Down
